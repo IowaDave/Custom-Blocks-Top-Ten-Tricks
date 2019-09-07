@@ -145,6 +145,6 @@ The author frequently consults documentation resources when questions pop into m
 <li><a href="https://makecode.com/defining-blocks">MakeCode.com's Detailed Documentation on Custom Blocks</a></li>
 </ul>
 
-That's it! If this looks like fun to you then please dive into our articles on custom blocks. If you think the standard MakeCode blocks are cool, imagine the possibiliities when you start adding your own custom blocks to your toolkit!
+That's it! If this looks like fun to you then please dive into our articles on custom blocks. If you think the standard MakeCode blocks are cool, imagine the possibilities when you start adding your own custom blocks to your toolkit!
 
 *P.S. Dear Experts: Yes, we know that users can right-click on a block to embed a comment within the block. This custom block may serve when the user wants to keep her comments in plain view at all times. We also know that strings take up space in the micro:bit's memory. Fortunately there is a lot of room for comments in the rather generous amount of flash memory MakeCode leaves available on the micro:bit. The ability to include comments prominently may worth block may be worth the small amount of memory it consumes. We leave it up to each user to judge this for themselves.*
