@@ -3,8 +3,6 @@
 <h4>Top Ten Secret Tricks To Know About<br>Creating Custom Blocks for MakeCode</h4>
 
 
-#### About this article
-
 The standard set of blocks in the MakeCode editor covers a useful but somewhat selected part of the Static TypeScript language (a version of JavaScript.)
 
 Custom blocks can unlock more of TypeScript's full potential. We are going to show you how to create them.
