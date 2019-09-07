@@ -1,5 +1,7 @@
 <h1> Beyond the Blocks</h1>
+<h3>by David Sparks</h3>
 <h4>Top Ten Secret Tricks To Know About<br>Creating Custom Blocks for MakeCode</h4>
+
 
 #### About this article
 
