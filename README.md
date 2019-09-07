@@ -9,49 +9,13 @@ Custom blocks can unlock more of TypeScript's full potential. We are going to sh
 
 ---
 
-At the end of this short article, you will find the Ten Tricks that can have you writing custom blocks almost immediately.
-
----
-
-##### About MakeCode
-
-MakeCode is a popular graphical code-writing tool for the BBC micro:bit.
-
-The MakeCode editor makes it easy to write code simply by selecting and arranging colorful blocks on a screen in a Web browser.
-
-The blocks are based on a powerful, modern programming language called Static TypeScript. It is a version of JavaScript, the language widely used to make Web pages interactive.
-
-Every block in MakeCode has Static Typescript code behind it. You can click the editor's JavaScript tab to see the code your blocks represent, if you wish.
-
-It works going the other way, also.
-
-You can create blocks by entering TypeScript code into the JavaScript window. Click the Blocks tab to convert your code into blocks.
-
-*Dear Experts: Yes, we know it is not even necessary to convert TypeScript into blocks. The MakeCode editor is perfectly happy to compile a TypeScript program directly into a ".hex" file for upload onto the micro:bit. People who know how to do that might never need to write a custom block. This article may be of only academic interest to those people.*
-
-##### What you need to know
-
-This article and those that follow in this series are intended for people who:
-
-<ul>
-  <li>have some knowledge of TypeScript or JavaScript but</li>
-  <li>prefer to do their coding with the blocks, yet</li>
-  <li>desire access to more of TypeScript's capabilities.</li>
-</ul>
-
-You will get the most out of the articles if you have some experience with TypeScript or JavaScript, or at least know how to enter and edit code in a text editor.
-
-We will not try to teach JavaScript or to explain every example in detail. Even so, non-technical readers are welcome! Who knows? Something might click and open a door for you.
-
-You might not know JavaScript&mdash;yet! But someday you may discover a need for a custom block and come back to the examples in these articles for an idea.
-
 ### The Ten Tricks
 
-Here they are, plain and simple. For detailed, illustrated examples see the articles that follow in this series.
+Here they are, plain, simple, and for the moment, unexplained. Illustrated examples with some explanation are available in the articles that follow in this series.
 
 ##### Accessing the custom.ts file
 
-You need the custom.ts file in your project because that is where to write custom blocks in the MakeCode editor. Here is how to add it and select it for editing.
+You must first make sure to have the custom.ts file in your project because that is where to write custom blocks in the MakeCode editor. It is hidden by default in a new project. Here is how to add the file and select it for editing.
 
 <ol>
 <li>Put the MakeCode editor into scripting mode by clicking the JavaScript tab near the top of the editor.</li>
@@ -105,7 +69,45 @@ The block we create here performs no tasks or calculations. It gives a simple wa
 
 If you let your mouse dwell over the block briefly, a "help" message appears. You will notice that the help text is the same as the comment that appears above the code for the block.
 
-Magic comments that begin with the pattern, <code>//%</code>, are called <em>metacode</em>. They contain information <em>about</em> your code, instructions that tell MakeCode how to prepare your code. 
+---
+
+##### About MakeCode
+
+MakeCode is a popular graphical code-writing tool for the BBC micro:bit.
+
+The MakeCode editor makes it easy to write code simply by selecting and arranging colorful blocks on a screen in a Web browser.
+
+The blocks are based on a powerful, modern programming language called Static TypeScript. It is a version of JavaScript, the language widely used to make Web pages interactive.
+
+Every block in MakeCode has Static Typescript code behind it. You can click the editor's JavaScript tab to see the code your blocks represent, if you wish.
+
+It works going the other way, also.
+
+You can create blocks by entering TypeScript code into the JavaScript window. Click the Blocks tab to convert your code into blocks.
+
+*Dear Experts: Yes, we know it is not even necessary to convert TypeScript into blocks. The MakeCode editor is perfectly happy to compile a TypeScript program directly into a ".hex" file for upload onto the micro:bit. People who know how to do that might never need to write a custom block. This article may be of only academic interest to those people.*
+
+##### What you need to know
+
+This article and those that follow in this series are intended for people who:
+
+<ul>
+  <li>have some knowledge of TypeScript or JavaScript but</li>
+  <li>prefer to do their coding with the blocks, yet</li>
+  <li>desire access to more of TypeScript's capabilities.</li>
+</ul>
+
+You will get the most out of the articles if you have some experience with TypeScript or JavaScript, or at least know how to enter and edit code in a text editor.
+
+We will not try to teach JavaScript or to explain every example in detail. Even so, non-technical readers are welcome! Who knows? Something might click and open a door for you.
+
+You might not know JavaScript&mdash;yet! But someday you may discover a need for a custom block and come back to the examples in these articles for an idea.
+
+---
+
+##### More about the code in Exhibit 1
+
+The magic comments that begin with the pattern, <code>//%</code>, are called <em>metacode</em>. They contain information <em>about</em> your code, instructions that tell MakeCode how to prepare your code. 
 
 There are a lot of different metacode instructions related to custom blocks. The two that have to be there are both shown in Exhibit 1:
 
