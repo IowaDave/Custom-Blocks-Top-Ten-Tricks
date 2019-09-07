@@ -114,7 +114,7 @@ You might not know JavaScript&mdash;yet! But someday you may discover a need for
 
 #### About the <code>//% block</code> comment in Exhibit 1
 
-The magic comments that begin with the pattern, <code>//%</code>, are called <em>metacode</em>. They contain information <em>about</em> your code, instructions that tell MakeCode how to prepare your code. 
+The magic comments that begin with the pattern, <code>//%</code>, are called <em>metacode</em>. They contain information <em>about</em> your code: instructions that tell MakeCode how to prepare your code. 
 
 There are a lot of different metacode instructions related to custom blocks. See the documentation links, listed below. The two that have to be there are both shown in Exhibit 1:
 
