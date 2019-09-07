@@ -71,6 +71,8 @@ If you let your mouse dwell over the block briefly, a "help" message appears. Yo
 
 <h4><img alt="Figure 1" src="https://raw.githubusercontent.com/IowaDave/Custom-Blocks-Top-Ten-Tricks/master/images/Figure%201.png"><br>Figure 1<br>Showing the Custom group,<br>the comment block with its help message,<br>and the comment block in use.</h4>
 
+*Note to Experts: We will have more to say at the end of this article about comments in MakeCode.*
+
 ---
 
 ##### About MakeCode
