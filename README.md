@@ -27,7 +27,7 @@ You must first make sure to have the custom.ts file in your project because that
 
 You can replace all of the default code with your own code in custom.ts. Follow these steps carefully.
 
-<ol>
+<ol start="6">
 <li>Custom blocks must be written inside a JavaScript namespace. Here is the namespace code that you will need to have in custom.ts.<br><br>The syntax is important and we are not going to explain it here. If you look closely you will find the namespace within the default code mentioned above. You might want to simply copy this and paste it into your project.
 <pre><code>
 /**
