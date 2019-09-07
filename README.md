@@ -1,7 +1,7 @@
 <h1> Beyond the Blocks</h1>
 <h4>Top Ten Secret Tricks To Know About<br>Creating Custom Blocks for MakeCode</h4>
 
-##### About this article
+#### About this article
 
 The standard set of blocks in the MakeCode editor covers a useful but somewhat selected part of the Static TypeScript language (a version of JavaScript.)
 
@@ -15,7 +15,7 @@ The [official documentation](https://makecode.microbit.org/blocks/custom) for cu
 
 Here they are, plain, simple, and for the moment, unexplained. Illustrated examples with some explanation are available in the articles that follow in this series.
 
-##### Accessing the custom.ts file
+#### Accessing the custom.ts file
 
 Custom blocks are written in code, not blocks. The MakeCode editor looks for custom block code in a special file named custom.ts. It is hidden by default in a new project. Here is how to add the custom.ts file and select it for editing.
 
@@ -77,7 +77,7 @@ If you let your mouse dwell over the block briefly, a "help" message appears. Yo
 
 ---
 
-##### About MakeCode
+#### About MakeCode
 
 MakeCode is a popular graphical code-writing tool for the BBC micro:bit.
 
@@ -93,9 +93,9 @@ You can create blocks by entering TypeScript code into the JavaScript window. Cl
 
 *Dear Experts: Yes, we know it is not even necessary to convert TypeScript into blocks. The MakeCode editor is perfectly happy to compile a TypeScript program directly into a ".hex" file for upload onto the micro:bit. People who know how to do that might never need to write a custom block. This article may be of only academic interest to those people.*
 
-##### What you need to know
+#### What you need to know
 
-This article and those that follow in this series are intended for people who:
+This article and those that follow in this series are designed for people who:
 
 <ul>
   <li>have some knowledge of TypeScript or JavaScript but</li>
@@ -105,13 +105,13 @@ This article and those that follow in this series are intended for people who:
 
 You will get the most out of the articles if you have some experience with TypeScript or JavaScript, or at least know how to enter and edit code in a text editor.
 
-We will not try to teach JavaScript or to explain every example in detail. Even so, non-technical readers are welcome! Who knows? Something might click and open a door for you.
+We will not try to teach JavaScript or to explain every example in detail. Even so, non-technical readers are welcome! Who knows? Something you read might click and open a door for you.
 
 You might not know JavaScript&mdash;yet! But someday you may discover a need for a custom block and come back to the examples in these articles for an idea.
 
 ---
 
-##### More about the code in Exhibit 1
+#### About the <code>//% block</code> comment in Exhibit 1
 
 The magic comments that begin with the pattern, <code>//%</code>, are called <em>metacode</em>. They contain information <em>about</em> your code, instructions that tell MakeCode how to prepare your code. 
 
@@ -121,7 +121,7 @@ There are a lot of different metacode instructions related to custom blocks. The
 and
 <code>//% block</code></pre>
 
-##### Where can you learn more about custom blocks?
+#### Where can you learn more about custom blocks?
 
 Learning any new technique in coding usually involves a significant amount of self-teaching. A tedious amount of trial and error is not unusual. 
 
