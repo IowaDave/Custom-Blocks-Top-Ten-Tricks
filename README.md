@@ -69,6 +69,8 @@ The block we create here performs no tasks or calculations. It gives a simple wa
 
 If you let your mouse dwell over the block briefly, a "help" message appears. You will notice that the help text is the same as the comment that appears above the code for the block.
 
+<h5><img alt="Figure 1" src="https://raw.githubusercontent.com/IowaDave/Custom-Blocks-Top-Ten-Tricks/master/images/Figure%201.png"><br>Figure 1<br>Showing the Custom group,<br>the comment block with its help message,<br>and the comment block in use.</h5>
+
 ---
 
 ##### About MakeCode
