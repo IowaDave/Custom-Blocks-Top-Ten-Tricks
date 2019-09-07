@@ -27,6 +27,7 @@ Custom blocks are written in code, not blocks. The MakeCode editor looks for cus
 <li>The custom.ts file will open for editing in the JavaScript window and will be highlighted in the list under the Explorer. When you want to edit the file again, click to highlight it in the list.</li>
 </ol>
 
+#### Coding a custom block
 You can replace all of the default code with your own code in custom.ts. Follow these steps carefully.
 
 <ol start="6">
