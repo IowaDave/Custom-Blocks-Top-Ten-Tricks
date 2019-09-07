@@ -39,7 +39,8 @@ You can replace all of the default code with your own code in custom.ts. Follow 
 namespace custom {
 
 }
-</code></pre><br></li>
+
+</code></pre></li>
 <li>Custom blocks represent JavaScript functions that are written inside the namespace, between the curly braces shown above. An example appears in Exhibit 1, below this list.</li>
 <li>The function must be exported from the namespace. This just means to place the keyword, "export" at the start of the line that declares the function.</li>
 <li>Place the magic comment, <code>//% block</code>, on a separate line preceding the exported function.</li>
