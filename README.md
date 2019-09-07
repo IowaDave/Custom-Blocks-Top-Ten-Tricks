@@ -7,6 +7,8 @@ The standard set of blocks in the MakeCode editor covers a useful but somewhat s
 
 Custom blocks can unlock more of TypeScript's full potential. We are going to show you how to create them.
 
+The [official documentation](https://makecode.microbit.org/blocks/custom) for custom blocks says, "Any exported JavaScript function can be turned into a block by simply adding a <code>//% block</code> comment." This can be done easily in the MakeCode editor, if you know the tricks.
+
 ---
 
 ### The Ten Tricks
@@ -37,7 +39,7 @@ You can replace all of the default code with your own code in custom.ts. Follow 
 namespace custom {
 
 }
-</code></pre></li>
+</code></pre><br></li>
 <li>Custom blocks represent JavaScript functions that are written inside the namespace, between the curly braces shown above. An example appears in Exhibit 1, below this list.</li>
 <li>The function must be exported from the namespace. This just means to place the keyword, "export" at the start of the line that declares the function.</li>
 <li>Place the magic comment, <code>//% block</code>, on a separate line preceding the exported function.</li>
