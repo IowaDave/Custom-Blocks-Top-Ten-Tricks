@@ -17,7 +17,7 @@ Here they are, plain, simple, and for the moment, unexplained. Illustrated examp
 
 ##### Accessing the custom.ts file
 
-You must first make sure to have the custom.ts file in your project because that is where to write custom blocks in the MakeCode editor. It is hidden by default in a new project. Here is how to add the file and select it for editing.
+Custom blocks are written in code, not blocks. The MakeCode editor looks for custom block code in a special file named custom.ts. It is hidden by default in a new project. Here is how to add the custom.ts file and select it for editing.
 
 <ol>
 <li>Put the MakeCode editor into scripting mode by clicking the JavaScript tab near the top of the editor.</li>
