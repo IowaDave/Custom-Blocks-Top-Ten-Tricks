@@ -116,7 +116,7 @@ You might not know JavaScript&mdash;yet! But someday you may discover a need for
 
 The magic comments that begin with the pattern, <code>//%</code>, are called <em>metacode</em>. They contain information <em>about</em> your code, instructions that tell MakeCode how to prepare your code. 
 
-There are a lot of different metacode instructions related to custom blocks. The two that have to be there are both shown in Exhibit 1:
+There are a lot of different metacode instructions related to custom blocks. See the documentation links, listed below. The two that have to be there are both shown in Exhibit 1:
 
 <pre><code>//% weight=100 color=#0fbc11 icon="\uf0c3"</code>
 and
@@ -124,7 +124,7 @@ and
 
 #### Where can you learn more about custom blocks?
 
-Learning any new technique in coding usually involves a significant amount of self-teaching. A tedious amount of trial and error is not unusual. 
+Learning any new technique in coding usually involves a significant amount of self-teaching. Trial and error goes with the territory. 
 
 The articles in this series resulted from the author's own personal journey of discovery about custom blocks. 
 
