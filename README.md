@@ -116,10 +116,12 @@ You might not know JavaScript&mdash;yet! But someday you may discover a need for
 
 The magic comments that begin with the pattern, <code>//%</code>, are called <em>metacode</em>. They contain information <em>about</em> your code: instructions that tell MakeCode how to prepare your code. 
 
-There are a lot of different metacode instructions related to custom blocks. See the documentation links, listed below. The two that have to be there are both shown in Exhibit 1:
+There are a lot of different metacode instructions related to custom blocks. The two lines of metacode that have to be present are shown in Exhibit 2. For more information about custom block metacode, see the documentation links, listed below.
 
-<pre><code>//% weight=100 color=#0fbc11 icon="\uf0c3"</code>
-and
+<h4>Exhibit 2<br>Essential metacode in custom.ts</h4>
+<pre>Preceding the namespace:
+<code>//% weight=100 color=#0fbc11 icon="\uf0c3"</code>
+and preceding each exported function:
 <code>//% block</code></pre>
 
 #### Where can you learn more about custom blocks?
@@ -132,9 +134,9 @@ The first couple of times it seemed to take forever. We share our experience wit
 
 We can assure you that learning gets easier and comes faster after you succeed with your first few attempts.
 
-The author frequently consults documentation resources when questions pop into mind about JavaScript, Static TypeScript, MakeCode, or custom blocks. Exhibit 2 lists some of the resources that often provide the information we seek.
+The author frequently consults documentation resources when questions pop into mind about JavaScript, Static TypeScript, MakeCode, or custom blocks. Exhibit 3 lists some of the resources that often provide the information we seek.
 
-<h4>Exhibit 2<br>References</h4>
+<h4>Exhibit 3<br>References</h4>
 <ul>
 <li><a href="https://www.w3schools.com/js/">JavaScript: The W3Schools JavaScript Tutorial</a></li>
 <li><a href="https://www.typescriptlang.org/docs/home.html">TypeScript.org Official Documentation</a></li>
