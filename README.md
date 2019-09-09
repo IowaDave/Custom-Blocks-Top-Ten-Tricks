@@ -13,7 +13,9 @@ The [official documentation](https://makecode.microbit.org/blocks/custom) for cu
 
 ### The Ten Tricks
 
-Here they are, plain, simple, and for the moment, unexplained. Illustrated examples with some explanation are available in the articles that follow in this series.
+Here they are, plain, simple, and for the moment, unexplained. 
+
+Illustrated examples with some explanation are available in the articles that follow in this series. For example, this one details the entire procedure: [Adding Custom Constant Blocks to Your Project](https://iowadave.github.io/pxt-constants/).
 
 #### Accessing the custom.ts file
 
